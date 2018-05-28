@@ -79,6 +79,8 @@ extension AppToolbarController {
         toolbar.detailLabel.textAlignment = .left
         
         toolbar.leftViews = [menuButton]
-        toolbar.rightViews = [starButton, searchButton]
+//        toolbar.rightViews = [starButton, searchButton]
+        toolbar.rightViews = [searchButton]
+    
     }
 }

@@ -49,7 +49,7 @@ struct SampleData {
         let a1 = Entity(type: "Article")
         a1["title"] = "Anti-Stress Yoga"
         a1["detail"] = "facebook.com/healthymind.io"
-        a1["photo"] = UIImage.load(contentsOfFile: "photo1", ofType: "jpg")?.resize(toHeight: 300)
+        a1["photo"] = UIImage.load(contentsOfFile: "photo2", ofType: "jpg")?.resize(toHeight: 300)
         a1["content"] = "Yoga is a wonderful practice for your body and soul. It benefits you tremendously in physical and mental ways. I'd like to point out that yoga practice is mainly for your mind, rather than your body."
         
         a1.is(relationship: "Post").in(object: c1)
@@ -83,7 +83,7 @@ struct SampleData {
         
         let c3 = Entity(type: "Category")
         c3["name"] = "Recipes"
-        
+       
         let a5 = Entity(type: "Article")
         a5["title"] = "Three Amazing Natural Teeth Whiteners"
         a5["detail"] = "facebook.com/healthymind.io"
